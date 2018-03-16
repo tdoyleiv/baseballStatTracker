@@ -15,6 +15,6 @@ namespace StatTrack.Models
         public Position Position { get; set; }
         public int PositionID { get; set; }
         [DisplayName("Player History")]
-        public virtual ICollection<PlayerSeason> PlayerHistory { get; set; }
+        public virtual ICollection<Season> Seasons { get; set; }
     }
 }

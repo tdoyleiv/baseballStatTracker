@@ -15,7 +15,7 @@ namespace StatTrack.Models
         public string Name { get; set; }
         public virtual ICollection<Player> Roster { get; set; }
         [DisplayName("Team History")]
-        public virtual ICollection<TeamSeason> TeamHistory { get; set; }
+        public virtual ICollection<Season> Seasons { get; set; }
 
     }
 }
