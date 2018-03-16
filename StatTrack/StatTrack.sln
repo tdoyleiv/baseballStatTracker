@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatTrack", "StatTrack\StatTrack.csproj", "{7A647646-2BB7-4C8B-95A3-2501AD18DA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatTrack.Tests", "StatTrack.Tests\StatTrack.Tests.csproj", "{1585B8B9-781C-4690-8217-9DAC17A90D70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A647646-2BB7-4C8B-95A3-2501AD18DA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A647646-2BB7-4C8B-95A3-2501AD18DA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A647646-2BB7-4C8B-95A3-2501AD18DA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A647646-2BB7-4C8B-95A3-2501AD18DA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1585B8B9-781C-4690-8217-9DAC17A90D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1585B8B9-781C-4690-8217-9DAC17A90D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1585B8B9-781C-4690-8217-9DAC17A90D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1585B8B9-781C-4690-8217-9DAC17A90D70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
