@@ -5,7 +5,7 @@ using System.Web;
 
 namespace StatTrack.Models
 {
-    public class Stats
+    public abstract class Stats
     {
 
     }

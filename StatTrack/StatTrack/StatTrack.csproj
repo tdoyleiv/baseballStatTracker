@@ -210,6 +210,7 @@
     <Compile Include="Models\MLB.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\Roster.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\Stats.cs" />
     <Compile Include="Models\Team.cs" />

@@ -10,10 +10,10 @@ namespace StatTrack.Models
     public class Team
     {
         public int TeamID { get; set; }
-        [DisplayName("Team Name")]
-        [StringLength(160)]
+        public string City { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<Player> Roster { get; set; }
+        public string TeamName { get { return City + Name; } }
+        public virtual ICollection<Roster> Roster { get; set; }
         [DisplayName("Team History")]
         public virtual ICollection<Season> Seasons { get; set; }
 
