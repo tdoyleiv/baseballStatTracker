@@ -5,9 +5,9 @@ using System.Web;
 
 namespace StatTrack.Models
 {
-    public class MLB
+    public class Sport
     {
-        public int MLBID { get; set; }
+        public int SportID { get; set; }
         public virtual ICollection<League> Leagues { get; set; }
     }
 }
