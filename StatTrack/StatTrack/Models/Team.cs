@@ -12,7 +12,7 @@ namespace StatTrack.Models
         public int TeamID { get; set; }
         public string City { get; set; }
         public string Name { get; set; }
-        public string TeamName { get { return City + Name; } }
+        public string TeamName { get { return City + " " + Name; } }
         public virtual ICollection<Roster> Roster { get; set; }
         [DisplayName("Team History")]
         public virtual ICollection<Season> Seasons { get; set; }

@@ -16,6 +16,10 @@ namespace StatTrack.Models
         public string FirstName { get; set; }
         public string FullName { get { return LastName + ", " + FirstName; } }
         public int Age { get; set; }
+        public int Height { get; set; }
+        public int Weight { get; set; }
+        public string Bats { get; set; }
+        public string Throws { get; set; }
         public int Number { get; set; }
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -25,5 +29,9 @@ namespace StatTrack.Models
         public int PositionID { get; set; }
         [DisplayName("Career")]
         public virtual ICollection<Season> Seasons { get; set; }
+        [DisplayName("Career Batting Stats")]
+        public virtual ICollection<BattingStats> CareerBatStats { get; set; }
+        [DisplayName("Career Pitching Stats")]
+        public virtual ICollection<PitchingStats> CareerPitchStats { get; set; }
     }
 }

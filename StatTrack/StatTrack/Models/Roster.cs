@@ -11,5 +11,6 @@ namespace StatTrack.Models
         public virtual Team Team { get; set; }
         public int TeamID { get; set; }
         public int Year { get; set; }
+        public virtual ICollection<Player> Lineup { get; set; }
     }
 }

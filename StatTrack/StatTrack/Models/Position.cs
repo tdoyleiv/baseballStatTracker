@@ -11,7 +11,6 @@ namespace StatTrack.Models
     {
         public int PositionID { get; set; }
         [DisplayName("Position")]
-        [StringLength(2)]
         public string Name { get; set; }
     }
 }

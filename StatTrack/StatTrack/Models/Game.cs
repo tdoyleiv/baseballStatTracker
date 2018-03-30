@@ -26,5 +26,13 @@ namespace StatTrack.Models
         public int HomeScore { get; set; }
         [DisplayName("Visitor Score")]
         public int VisitorScore { get; set; }
+        [DisplayName("Home Batting Stats")]
+        public virtual ICollection<BattingStats> HomeBattingStats { get; set; }
+        [DisplayName("Visitor Batting Stats")]
+        public virtual ICollection<BattingStats> VistorBattingStats { get; set; }
+        [DisplayName("Home Pitching Stats")]
+        public virtual ICollection<PitchingStats> HomePitchingStats { get; set; }
+        [DisplayName("Visitor Pitching Stats")]
+        public virtual ICollection<PitchingStats> VisitorPitchingStats { get; set; }
     }
 }
