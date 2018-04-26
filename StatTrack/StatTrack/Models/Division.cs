@@ -10,5 +10,7 @@ namespace StatTrack.Models
         public int DivisionID { get; set; }
         public string Name { get; set; }
         public virtual ICollection<Team> Teams { get; set; }
+        public virtual ICollection<BattingStats> DivisionBattingStats { get; set; }
+        public virtual ICollection<PitchingStats> DivisionPitchingStats { get; set; }
     }
 }

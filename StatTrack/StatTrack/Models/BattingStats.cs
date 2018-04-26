@@ -21,6 +21,10 @@ namespace StatTrack.Models
         public int RBI { get; set; }
         public int HR { get; set; }
         public int BB { get; set; }
+        public int SF { get; set; }
+        public int SH { get; set; }
+        public int GB { get; set;  }
+        public int FB { get; set; }
         public int SO { get; set; }
         public int SB { get; set; }
         public int CS { get; set; }
@@ -32,5 +36,12 @@ namespace StatTrack.Models
         public float AVG { get; set; }
         public float OBP { get; set; }
         public float SLG { get; set; }
+        public float OPS { get; set; }
+        public float RISP { get; set; }
+        public float WOBA { get; set; }
+        public float SecA { get; set; }
+        public float RC { get; set; }
+        public float EqA { get; set; }
+
     }
 }

@@ -22,6 +22,7 @@ namespace StatTrack.Models
         public float ERA { get; set; }
         public int W { get; set; }
         public int L { get; set; }
+        public float WP { get; set; }
         public int SV { get; set; }
         public float AVG { get; set; }
         public float WHIP { get; set; }
@@ -30,5 +31,10 @@ namespace StatTrack.Models
         public int B { get; set; }
         public int GB { get; set; }
         public int FB { get; set; }
+        public float BABIP { get; set; }
+        public float DERA { get; set; }
+        public float DICE { get; set; }
+        public float FIP { get; set; }
+        public float XFIP { get; set; }
     }
 }

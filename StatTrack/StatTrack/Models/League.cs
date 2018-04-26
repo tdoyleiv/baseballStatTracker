@@ -9,6 +9,9 @@ namespace StatTrack.Models
     {
         public int LeagueID { get; set; }
         public string Name { get; set; }
-        public ICollection<Division> Divisions { get; set; }
+        public virtual ICollection<Division> Divisions { get; set; }
+
+        public virtual ICollection<BattingStats> LeagueBattingStats { get; set; }
+        public virtual ICollection<PitchingStats> LeaguePitchingStats { get; set; }
     }
 }
