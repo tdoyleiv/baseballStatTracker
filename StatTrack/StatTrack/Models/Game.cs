@@ -14,6 +14,8 @@ namespace StatTrack.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [DisplayName("Date Played")]
         public DateTime DatePlayed { get; set; }
+        public bool IsPPD { get; set; }
+        [DisplayName("Postponed")]
         public virtual Team Home { get; set; }
         public int HomeID { get; set; }
         public virtual Team Visitor { get; set; }
